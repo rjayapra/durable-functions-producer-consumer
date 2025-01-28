@@ -10,9 +10,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN \
     # Install NPM
-    wget https://deb.nodesource.com/setup_16.x | bash \
+    wget https://deb.nodesource.com/setup_20.x | bash \
     && apt-get update \
     && apt-get install -y --no-install-recommends \
+        nodejs \
         npm \
         jq \
         azure-cli \
