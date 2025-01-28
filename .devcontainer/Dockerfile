@@ -27,6 +27,7 @@ RUN \
     && mv /usr/bin/func /usr/bin/func3 \
     #
     # Install Func core tools v4 via NPM
+    && sudo npm install unzipper@0.10.7
     && sudo npm i -g azure-functions-core-tools@4 --unsafe-perm true \
     #
     # Clean up
