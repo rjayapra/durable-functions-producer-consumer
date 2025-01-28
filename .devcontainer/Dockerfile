@@ -15,6 +15,7 @@ RUN \
     && apt-get install -y --no-install-recommends \
         npm \
         jq \
+        azure-cli \
     #
     # Install .NET 6.0
     && wget https://dot.net/v1/dotnet-install.sh -O dotnet-install.sh \
